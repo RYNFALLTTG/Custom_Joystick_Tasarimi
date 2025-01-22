@@ -1,0 +1,31 @@
+yourcontrollername.name=Example Controller Board
+        
+yourcontrollername.upload.tool=arduino:avrdude
+yourcontrollername.upload.protocol=avr109
+yourcontrollername.upload.maximum_size=28672
+yourcontrollername.upload.maximum_data_size=2560
+yourcontrollername.upload.speed=57600
+yourcontrollername.upload.disable_flushing=true
+yourcontrollername.upload.use_1200bps_touch=true
+yourcontrollername.upload.wait_for_upload_port=true
+yourcontrollername.bootloader.tool=arduino:avrdude
+yourcontrollername.bootloader.low_fuses=0xff
+yourcontrollername.bootloader.high_fuses=0xd8
+yourcontrollername.bootloader.extended_fuses=0xcb
+yourcontrollername.bootloader.file=caterina/Caterina-Leonardo.hex
+yourcontrollername.bootloader.unlock_bits=0x3F
+yourcontrollername.bootloader.lock_bits=0x2F     
+yourcontrollername.build.mcu=atmega32u4
+yourcontrollername.build.f_cpu=16000000L
+
+
+yourcontrollername.build.vid=0x2355
+yourcontrollername.build.pid=0x8050
+yourcontrollername.build.usb_product="Example Controller Board"
+
+
+yourcontrollername.build.usb_manufacturer="Example Manufacturer"
+yourcontrollername.build.board=AVR_LEONARDO
+yourcontrollername.build.core=arduino:arduino
+yourcontrollername.build.variant=arduino:leonardo
+yourcontrollername.build.extra_flags={build.usb_flags}
